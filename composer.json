@@ -1,12 +1,12 @@
 {
-    "name": "wimbo/laravel-onlydev",
+    "name": "morshleg/laravel-devtool",
     "description": "Fonctionnalités réservées aux développeurs pour Laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "wimbo",
-            "email": "magicwimbo@gmail.com"
+            "name": "morshleg",
+            "email": "magicmorshleg@gmail.com"
         }
     ],
     "require": {
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "wimbo\\Onlydev\\": "src/"
+            "morshleg\\Onlydev\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "wimbo\\Onlydev\\OnlydevServiceProvider"
+                "morshleg\\Onlydev\\OnlydevServiceProvider"
             ]
         }
     },
