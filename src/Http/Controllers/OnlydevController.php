@@ -1,6 +1,6 @@
 <?php
 
-namespace wimbo\Onlydev\Http\Controllers;
+namespace morshleg\Onlydev\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;

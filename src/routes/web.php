@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use wimbo\Onlydev\Http\Controllers\OnlydevController;
+use morshleg\Onlydev\Http\Controllers\OnlydevController;
 
 Route::middleware(['web'])
     ->prefix('onlydev')

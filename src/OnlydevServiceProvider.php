@@ -1,6 +1,6 @@
 <?php
 
-namespace wimbo\Onlydev;
+namespace morshleg\Onlydev;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
@@ -12,7 +12,7 @@ class OnlydevServiceProvider extends ServiceProvider
     {
         if (env('APP_ENV') === 'local' && env('APP_DEBUG') === true) {
 
-            $this->app['router']->pushMiddlewareToGroup('web', \wimbo\Onlydev\Http\Middleware\InjectOnlydevBar::class);
+            $this->app['router']->pushMiddlewareToGroup('web', \morshleg\Onlydev\Http\Middleware\InjectOnlydevBar::class);
             $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
 
             // Charger les vues de ton package

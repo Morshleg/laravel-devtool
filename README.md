@@ -5,7 +5,7 @@ Un outil de développement pour Laravel réservé à l'environnement local.
 ## Installation
 
 ```bash
-composer require wimbo/laravel-devtool:dev-main
+composer require morshleg/laravel-devtool:dev-main
 ```
 
 ## Pré-requis

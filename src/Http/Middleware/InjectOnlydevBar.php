@@ -1,6 +1,6 @@
 <?php
 
-namespace wimbo\Onlydev\Http\Middleware;
+namespace morshleg\Onlydev\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
